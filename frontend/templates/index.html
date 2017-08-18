@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>TBCS Shop</title>
+    <base href="/">
+    {% load static %}
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="{% static 'frontend/dist/favicon.ico' %}">
+    <!--Removed the rel="stylesheet", which solved the Resource interpreted as Stylesheet but transferred with MIME type text/HTML-->
+    <link rel="stylesheet" href="{% static 'frontend/dist/styles.5f29c3f28f6ccc446ca7.bundle.css' %}">
+</head>
+<body>
+<app-root>
+    <div style="padding-right: 15px; padding-left: 15px; max-width: 100%">
+        <div style="padding-top: 30px;padding-bottom: 30px;margin-bottom: 30px;
+        margin-top: 20px; background-color: #eee; border-radius: 6px; max-width: 100%"><h3
+                style="font-size: 50px; text-align: center">Loading, please wait...</h3></div>
+    </div>
+</app-root>
+<script type="text/javascript" src="{% static 'frontend/dist/inline.9fc8305f43d698ae1777.bundle.js' %}"></script>
+<script type="text/javascript" src="{% static 'frontend/dist/polyfills.cb48962fef76b08876eb.bundle.js' %}"></script>
+<script type="text/javascript" src="{% static 'frontend/dist/scripts.3c3471959601cd739fb1.bundle.js' %}"></script>
+<script type="text/javascript" src="{% static 'frontend/dist/vendor.51bf7699899848c4d45a.bundle.js' %}"></script>
+<script type="text/javascript" src="{% static 'frontend/dist/main.10bf097c7683805cb05c.bundle.js' %}"></script>
+</body>
+</html>
